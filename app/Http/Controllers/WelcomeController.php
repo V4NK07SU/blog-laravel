@@ -17,13 +17,8 @@ class WelcomeController extends Controller
 
    
     public function article($slug){
-
-
     	$post = Post::findBySlug($slug);
-
-
-    	return view('article');
-    	with('post', $post);
+    	return view('article')->with('post', $post);
     }
 
    
