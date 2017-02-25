@@ -1,0 +1,101 @@
+/*fonts*/
+
+@import url('https://fonts.googleapis.com/css?family=Croissant+One|Geostar+Fill|Indie+Flower|Nova+Script');
+
+/*website*/
+
+.geostar-fill {
+    font-family: 'Geostar Fill', cursive;
+}
+.white{
+    color: white;
+}
+
+header {
+    background-image: url(https://i.ytimg.com/vi/A-QK--knoac/maxresdefault.jpg);
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+/*header oscurecer*/
+
+.blur {
+    min-height: inherit;
+    background-color: rgba(0, 0, 0, .2);
+}
+section{
+	height: auto;
+}
+
+footer{
+    background-color:#009E66;
+    border-top:3px solid tomato;
+    min-height: 100px; 
+    padding-top: .5%;
+}
+#title {
+    font-size: 3em;
+    color: white;
+    text-align: center;
+    padding-top: 10%;
+}
+
+#subtitle {
+    font-size: 1em;
+    color: white;
+    text-align: center;
+    padding-top: 5%;
+}
+.btn{
+	border-radius: 0px;
+}
+.btn-web{
+	background-color: transparent;
+	border: 1px solid white;
+	color: white;
+	margin-top: 1%;
+	-webkit-transition:background-color .5s,border .5s;
+	-moz-transition:background-color .5s,border .5s;
+	-o-transition:background-color .5s,border .5s;
+	
+}
+.btn-web:hover{
+	background-color: tomato;
+	border: 5px solid white;
+	color: white;	
+	-webkit-transition:background-color .5s,border .5s;
+	-moz-transition:background-color .5s,border .5s;
+	-o-transition:background-color .5s,border .5s;
+	cursor:pointer; ;
+}
+
+
+/*MEDIA QUERY*/
+
+@media(max-width: 500px) {
+    #title {
+        font-size: 3em;
+        color: white;
+        text-align: center;
+        padding-top: 10%;
+    }
+    #subtitle {
+        font-size: 1em;
+        color: white;
+        text-align: center;
+        padding-top: 5%;
+    }
+    header {
+        background-image: url(https://i.ytimg.com/vi/A-QK--knoac/maxresdefault.jpg);
+        min-height: 100vh;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
+    footer{
+    background-color:009444;
+    min-height: 150px; 
+}
